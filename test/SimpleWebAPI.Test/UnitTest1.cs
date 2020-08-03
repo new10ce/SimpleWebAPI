@@ -11,7 +11,7 @@ namespace SimpleWebAPI.Test
         [Fact]
         public void CheckName()
         {
-            Assert.Equal("Nutan1", controller.GetName());
+            Assert.Equal("Nutan", controller.GetName());
         }
         [Fact]
         public void Test1()
